@@ -16,12 +16,9 @@ use yii\web\AssetBundle;
  */
 class SpeakingurlAsset extends AssetBundle
 {
-//    public $sourcePath = '@vendor/bower/speakingurl/dist';
-//    public $js = [
-//        'slugify.min.js'
-//    ];
-//    public $depends = [
-//        'yii\web\JqueryAsset',
-//    ];
+    public $sourcePath = '@vendor/bower/speakingurl';
+    public $js = [
+        'speakingurl.min.js'
+    ];
 
 } 
