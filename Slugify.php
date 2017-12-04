@@ -5,14 +5,14 @@
  * @copyright Copyright (c) 2017 Power Kernel
  */
 
-namespace modernkernel\slugify;
+namespace powerkernel\slugify;
 
 use yii\helpers\Html;
 use yii\widgets\InputWidget;
 
 /**
  * Class Slugify
- * @package modernkernel\slugify
+ * @package powerkernel\slugify
  */
 class Slugify extends InputWidget
 {

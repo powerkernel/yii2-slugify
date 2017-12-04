@@ -5,14 +5,14 @@
  * @copyright Copyright (c) 2017 Power Kernel
  */
 
-namespace modernkernel\slugify;
+namespace powerkernel\slugify;
 
 
 use yii\web\AssetBundle;
 
 /**
  * Class Asset
- * @package modernkernel\slugify
+ * @package powerkernel\slugify
  */
 class SpeakingurlAsset extends AssetBundle
 {

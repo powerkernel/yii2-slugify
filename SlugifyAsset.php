@@ -5,14 +5,14 @@
  * @copyright Copyright (c) 2017 Power Kernel
  */
 
-namespace modernkernel\slugify;
+namespace powerkernel\slugify;
 
 
 use yii\web\AssetBundle;
 
 /**
  * Class Asset
- * @package modernkernel\slugify
+ * @package powerkernel\slugify
  */
 class SlugifyAsset extends AssetBundle
 {
@@ -22,7 +22,7 @@ class SlugifyAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\JqueryAsset',
-        'modernkernel\slugify\SpeakingurlAsset'
+        'powerkernel\slugify\SpeakingurlAsset'
     ];
 
 } 
