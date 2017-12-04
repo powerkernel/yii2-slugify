@@ -1,5 +1,5 @@
 {
-    "name": "modernkernel/yii2-slugify",
+    "name": "powerkernel/yii2-slugify",
     "description": "Slugify extension for Yii2",
     "type": "yii2-extension",
     "keywords": ["yii2","slugify"],
@@ -11,13 +11,13 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2": "~2.0",
         "bower-asset/speakingurl": "*",
-        "bower-asset/jquery-slugify": "~1.0.0"
+        "bower-asset/jquery-slugify": "~1.0"
     },
     "autoload": {
         "psr-4": {
-            "modernkernel\\slugify\\": ""
+            "powerkernel\\slugify\\": ""
         }
     }
 }
