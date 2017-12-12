@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
  */
 class SpeakingurlAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/bower/speakingurl';
+    public $sourcePath = '@bower/speakingurl';
     public $js = [
         'speakingurl.min.js'
     ];

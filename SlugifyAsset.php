@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
  */
 class SlugifyAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/bower/jquery-slugify/dist';
+    public $sourcePath = '@bower/jquery-slugify/dist';
     public $js = [
         'slugify.min.js'
     ];
