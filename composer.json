@@ -12,8 +12,7 @@
     ],
     "require": {
         "yiisoft/yii2": "~2.0",
-        "bower-asset/speakingurl": "*",
-        "bower-asset/jquery-slugify": "*"
+        "bower-asset/jquery-slugify": "~1.2.5"
     },
     "autoload": {
         "psr-4": {
