@@ -28,6 +28,6 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-    <?= $form->field($model, 'slug')->widget(\powerkernel\slugify\Slugify::className(),['source'=>'#blog-title']) ?>
+    <?= $form->field($model, 'slug')->widget(\powerkernel\slugify\Slugify::class,['source'=>'#blog-title']) ?>
     <?= $form->field($model, 'title')->textInput(['maxlength' => true]) ?>
 ```
